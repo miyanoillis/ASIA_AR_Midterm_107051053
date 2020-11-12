@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using System.Collections;
 
 public class GameManager : MonoBehaviour
 {
@@ -47,5 +48,10 @@ public class GameManager : MonoBehaviour
     {
         animdg.SetTrigger(Name);
         animgl.SetTrigger(Name);
+    }
+
+    public void quit()
+    {
+        Application.Quit();
     }
 }
