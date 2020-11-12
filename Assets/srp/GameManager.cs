@@ -49,4 +49,3 @@ public class GameManager : MonoBehaviour
         animgl.SetTrigger(Name);
     }
 }
-}
